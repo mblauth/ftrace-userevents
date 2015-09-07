@@ -19,6 +19,7 @@ int main(int argc, char ** argv) {
   for (int i = 0; i < INT_MAX; i++);
   marker(fd, "bar\n");
   for (int i = 0; i < INT_MAX; i++);
+
   close(fd);
 }
 
